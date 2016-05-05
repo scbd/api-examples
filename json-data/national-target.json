@@ -1,0 +1,47 @@
+{
+    "header": {
+        "identifier": "9B4BD910-3C57-F1ED-3E91-450A44QWERTY",
+        "schema": "nationalTarget",
+        "languages": [
+            "en"
+        ]
+    },
+    "government": {
+        "identifier": "ao"
+    },
+    "isAichiTarget": false,
+    "title": {
+        "en": "The is an example"
+    },
+    "description": {
+        "en": "example text for Rationale for the National Target"
+    },
+    "jurisdiction": {
+        "identifier": "528B1187-F1BD-4479-9FB3-ADBD9076D361"
+    },
+    "aichiTargets": [
+        {
+            "identifier": "AICHI-TARGET-01-C2"
+        },
+        {
+            "identifier": "AICHI-TARGET-02-C2"
+        }
+    ],
+    "otherAichiTargets": [
+        {
+            "identifier": "AICHI-TARGET-03-C1"
+        },
+        {
+            "identifier": "AICHI-TARGET-03-C2"
+        }
+    ],
+    "relevantInformation": {
+        "en": "example text for Relevant information"
+    },
+    "relevantDocuments": [
+        {
+            "url": "http://www.example.com",
+            "name": "example.com"
+        }
+    ]
+}
