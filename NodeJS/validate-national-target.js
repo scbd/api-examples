@@ -22,16 +22,20 @@ request({ method: 'POST', url: URL.TOKEN ,headers:headers, body: JSON.stringify(
         console.log("Error getting credentials" ,error);
     else {
          
-         var url = URL.VALIDATE.replace('/x/', '/' + document.header.identifier + '/');
-         var token = JSON.parse(data);
          
+         var token = JSON.parse(data);
+
          var documentHeaders = _.extend(headers, {'realm': 'CHM-DEV'});
              documentHeaders.Authorization = 'Ticket ' + token.authenticationToken;
-              
-         request({ method: 'PUT', uri: url, body: JSON.stringify(document), headers: documentHeaders }, 
+
+         request({ method: 'PUT', uri: URL.VALIDATE, body: JSON.stringify(document), headers: documentHeaders },
          function (error, response) {
-            
-                console.log("Document errors:,", JSON.parse(response.body));
+             var result = JSON.parse(response.body);
+             if(result.errors)
+                console.log("Document errors:", result.errors);
+            else {
+                console.log("Document is valid");
+            }
         });
     }
 });
