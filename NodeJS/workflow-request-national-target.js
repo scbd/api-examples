@@ -19,7 +19,7 @@ var headers = { 'Accept': 'application/json', 'Content-Type': 'application/json;
 
 request({ method: 'POST', url: URL.TOKEN ,headers:headers, body: JSON.stringify(credentials) }, function (error, response, data) {
 
-    if (response.statusCode!=201)
+    if (response.statusCode!=201 && response.statusCode!=200)
         console.log("Error getting credentials" ,error);
     else {
          
@@ -31,7 +31,7 @@ request({ method: 'POST', url: URL.TOKEN ,headers:headers, body: JSON.stringify(
               
          request({ method: 'PUT', uri: url, body: JSON.stringify(document), headers: documentHeaders }, 
          function (error, response) {
-            if (response.statusCode!=200)
+            if (response.statusCode!=200 && response.statusCode!=201)
                 console.log("Error saving document" ,JSON.parse(response.body));
             else {
                 var newDocument = JSON.parse(response.body);
