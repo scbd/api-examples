@@ -18,7 +18,7 @@ var headers = { 'Accept': 'application/json', 'Content-Type': 'application/json;
 
 request({ method: 'POST', url: URL.TOKEN ,headers:headers, body: JSON.stringify(credentials) }, function (error, response, data) {
 
-    if (response.statusCode!=201)
+    if (response.statusCode!=201 && response.statusCode!=200)
         console.log("Error getting credentials" ,error);
     else {
          
