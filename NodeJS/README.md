@@ -2,12 +2,12 @@
 
 ### Prerequisites
 The following software must be installed:
-1. NodeJS https://nodejs.org/en/download/
-2. A software capable of interacting with Github (e.g. https://desktop.github.com/)
+* NodeJS https://nodejs.org/en/download/
+* A software capable of interacting with Github (e.g. https://desktop.github.com/)
 
 From Github desktop, clone scbd/api-examples to your local computer.
 
-Open a NodeJS command prompt and go to the cloned folder:
+Open a NodeJS command prompt and go to the cloned folder (Windows example below):
 ```
 cd C:\Users\xxx\Documents\GitHub\api-examples\NodeJS\ 
 ```
