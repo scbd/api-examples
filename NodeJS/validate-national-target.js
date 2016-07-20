@@ -7,7 +7,7 @@ var URL = {
     DOCUMENT        : 'https://api.cbd.int/api/v2013/documents',
     DOCUMENTDRAFT   : 'https://api.cbd.int/api/v2013/documents/x/versions/draft?schema=nationalTarget',
     WORKFLOW        : 'https://api.cbd.int/api/v2013/workflows',
-    VALIDATE        : 'https://chm.cbd.int/api/v2013/documents/x/validate?schema=nationalTarget'
+    VALIDATE        : 'https://api.cbd.int/api/v2013/documents/x/validate?schema=nationalTarget'
 }
 
 var credentials  = require('../json-data/credentials.json');
@@ -21,8 +21,7 @@ request({ method: 'POST', url: URL.TOKEN ,headers:headers, body: JSON.stringify(
     if (response.statusCode!=201 && response.statusCode!=200)
         console.log("Error getting credentials" ,error);
     else {
-         
-         
+
          var token = JSON.parse(data);
 
          var documentHeaders = _.extend(headers, {'realm': 'CHM-DEV'});

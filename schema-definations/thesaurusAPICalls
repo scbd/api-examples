@@ -1,0 +1,42 @@
+
+//////////////// General /////////
+Countries       api.cbd.int/api/v2013/thesaurus/domains/countries/terms
+libraries       api.cbd.int/api/v2013/thesaurus/domains/cbdClearingHouses/terms
+regions         api.cbd.int/api/v2013/thesaurus/domains/regions/terms
+other           api.cbd.int/api/v2013/thesaurus/terms/5B6177DD-5E5E-434E-8CB7-D63D67D5EBED
+
+//////////////// Checkppoint /////////
+CP jurisdiction api.cbd.int/api/v2013/thesaurus/domains/D7BD5BDE-A6B9-4261-B788-16839CCC4F7E/terms
+
+//////////////// CheckpointCommunique /////////
+CPC keywords    api.cbd.int/api/v2013/thesaurus/domains/1A22EAAB-9BBC-4543-890E-DEF913F59E98/terms
+
+//////////////// permit /////////
+permit usage    api.cbd.int/api/v2013/thesaurus/domains/A7B77788-8C90-4849-9327-E181E9522F3A/terms
+permit keywords api.cbd.int/api/v2013/thesaurus/domains/1A22EAAB-9BBC-4543-890E-DEF913F59E98/terms
+
+//////////////// authority /////////////
+organizationTypes                   api.cbd.int/api/v2013/thesaurus/domains/Organization%20Types/terms
+cbdSubjects                         api.cbd.int/api/v2013/thesaurus/domains/CBD-SUBJECTS/terms
+jurisdictions                       api.cbd.int/api/v2013/thesaurus/domains/D7BD5BDE-A6B9-4261-B788-16839CCC4F7E/terms
+absJurisdictions                    api.cbd.int/api/v2013/thesaurus/domains/51A113E9-071F-440A-83DC-E3499B7C646D/terms
+absGeneticResourceTypes             api.cbd.int/api/v2013/thesaurus/domains/20945FA8-C24C-4AF6-B3D9-367592AFDF48/terms
+absGeneticResourceAreas             api.cbd.int/api/v2013/thesaurus/domains/545CD54C-CFF3-41E8-A003-FDD278426A3A/terms
+cpbFunctions                        api.cbd.int/api/v2013/thesaurus/domains/Subject Areas/terms
+cpbOrganismTypes                    api.cbd.int/api/v2013/thesaurus/domains/TypeOfOrganisms/terms
+absFunctions                        api.cbd.int/api/v2013/thesaurus/domains/8102E184-E282-47F7-A49F-4C219B0EE235/terms
+keywords                            api.cbd.int/api/v2013/thesaurus/domains/1A22EAAB-9BBC-4543-890E-DEF913F59E98/terms
+
+
+//////////////// measure /////////
+languages           api.cbd.int/api/v2013/thesaurus/domains/52AFC0EE-7A02-4EFA-9277-8B6C327CE21F/terms
+absMeasures         api.cbd.int/api/v2013/thesaurus/domains/50616B56-12F3-4C46-BC43-2DFC26679177/terms
+typeOfDocuments     api.cbd.int/api/v2013/thesaurus/domains/144CF550-7629-43F3-817E-CACDED34837E/terms
+jurisdictions       api.cbd.int/api/v2013/thesaurus/domains/7A56954F-7430-4B8B-B733-54B8A5E7FF40/terms
+statuses            api.cbd.int/api/v2013/thesaurus/domains/ED7CDBD8-7762-4A84-82DD-30C01458A799/terms
+documentLinksExt    api.cbd.int/api/v2013/thesaurus/domains/ISO639-2/terms
+languages           api.cbd.int/api/v2013/thesaurus/domains/52AFC0EE-7A02-4EFA-9277-8B6C327CE21F/terms
+translationType     api.cbd.int/api/v2013/thesaurus/domains/19E3C535-2919-4804-966C-E62728507291/terms
+
+
+/////////////////////////////////
