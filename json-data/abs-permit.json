@@ -1,0 +1,20 @@
+{
+  "header": {
+    "identifier": "C6DAA0A3-4D6B-E788-4C1D-066F33253F40",
+    "schema": "absPermit",
+    "languages": ["en"]
+  },
+  "government": { "identifier": "af" },
+  "absCNA": { "identifier": "C84C7E6C-134C-F1B1-9A3B-B7443F135239@1" },
+  "title": { "en": "dev test" },
+  "dateOfIssuance": "2016-08-07",
+  "providersConfidential": true,
+  "picGranted": true,
+  "entitiesToWhomPICGrantedConfidential": true,
+  "matEstablished": true,
+  "subjectMatterConfidential": true,
+  "usagesConfidential": true,
+  "referenceToNationalPermit": { "en": "dsf" },
+  "amendmentDescription": { "en": "<p>summary of the record</p>" },
+  "amendmentIntent": 0
+}
