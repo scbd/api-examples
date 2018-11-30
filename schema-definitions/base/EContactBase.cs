@@ -16,6 +16,7 @@ public class EContactBase
 	public lstring	city					{ get; set; }
 	public lstring	state					{ get; set; }
 	public lstring	postalCode				{ get; set; }
+	[Term("countries")]
 	public ETerm	country					{ get; set; }
 	public string[]	phones					{ get; set; }
 	public string[]	faxes					{ get; set; }
